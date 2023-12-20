@@ -1,0 +1,91 @@
+header{
+    background-color: aqua;
+    height: 500px;
+    color: rgb(226, 249, 15);
+    background-image: url(https://fs.tonkosti.ru/sized/c1600x600/ax/tv/axtvyn3dl5kc0c8gsww8gwcwk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    font-size: 30px;
+    text-align: left;
+    font-style: oblique;
+    font-weight: 400;
+    display: flex;
+    margin-left: 20px;
+}
+main{
+    background-color: orange;
+    height: 100%;
+    color: antiquewhite;
+}
+
+footer{
+    background-color: rgba(189, 31, 31, 0.884);
+    height: 100%;
+    color: brown;
+    font-size: 20px;
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+
+}
+    
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    float: left;
+    background: linear-gradient( red, yellow);
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-left: 50px;
+}
+.f-left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.f-left img{
+    padding-top: 20px;
+}
+.f-right{
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+.f-right img{
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.f-right ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
